@@ -1,23 +1,22 @@
 {
-  "name": "thread",
+  "name": "Thread",
   "version": "1.0.0",
-  "description": "",
-  "main": "Thread.ts",
+  "description": "Thread _is_ a peer-to-peer network layer continually connecting/disconnecting friends and acquaintances using filters.",
+  "main": "index.js",
   "scripts": {
-    "start": "parcel Example/index.html --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel Example/index.html --open --https"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/offIine/Thread.git"
+    "url": "git+https://github.com/OffIine/Thread.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/offIine/Thread/issues"
+    "url": "https://github.com/OffIine/Thread/issues"
   },
-  "homepage": "https://github.com/offIine/Thread#readme",
+  "homepage": "https://github.com/OffIine/Thread#readme",
   "devDependencies": {
     "typescript": "^3.5.3"
   }

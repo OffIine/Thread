@@ -1,4 +1,4 @@
-import Thread, { __ } from '../Thread'
+import Thread, { _ } from '../Thread'
 
 let th = new Thread('Alex')
 
@@ -6,21 +6,27 @@ th.Filter(
   ({ x, y }, a, b) => {
     return a !== b && !!x && !!y
   },
-  { coords: __ }
+  { pos: _ }
 )
 
 th.On(
-  (v) => {
-    alert(JSON.stringify(v))
+  (msg) => {
+    alert(JSON.stringify(msg['Tyler']))
   },
-  { yeah: __ }
+  { msg: _ }
 )
 
 th.Connect('Tyler')
 
 th.Add(
   {
-    yeah: { man: 123 },
-    coords: { x: 2, y: 4 }
+    msg: {
+      'Alex': 'hey!',
+      'Tyler': 'yo..',
+    },
+    pos: {
+      'Alex': { x: 2, y: 4 },
+      'Tyler': { x: 1, y: 5 }
+    }
   }
 )
