@@ -1,0 +1,24 @@
+{
+  "name": "thread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Thread.ts",
+  "scripts": {
+    "start": "parcel Example/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offIine/Thread.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/offIine/Thread/issues"
+  },
+  "homepage": "https://github.com/offIine/Thread#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
